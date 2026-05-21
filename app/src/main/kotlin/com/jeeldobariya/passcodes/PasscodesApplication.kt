@@ -1,7 +1,6 @@
 package com.jeeldobariya.passcodes
 
 import android.app.Application
-import com.google.android.material.color.DynamicColors
 import com.jeeldobariya.passcodes.core.di.coreModule
 import com.jeeldobariya.passcodes.database.di.databaseModule
 import com.jeeldobariya.passcodes.di.appModule
@@ -12,7 +11,6 @@ import org.koin.core.context.startKoin
 class PasscodesApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        DynamicColors.applyToActivitiesIfAvailable(this)
         startKoin {
             androidContext(this@PasscodesApplication)
             modules(databaseModule)
