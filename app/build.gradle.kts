@@ -21,9 +21,9 @@ fun getCurrentTimeLabel(): String {
 
 // Core Versioning
 val appVersionCode = 7
-val appVersionName = "v2.1.1-Beta"
-val appLabel = "v2.1.1 - Beta"
-val appDevLabel = "v2.1.1 - ${getCurrentTimeLabel()}"
+val appVersionName = "v2.1.2-Beta"
+val appLabel = "v2.1.2 - Beta"
+val appDevLabel = "v2.1.2 - ${getCurrentTimeLabel()}"
 
 // SDK Versions
 val appCompileSdk = 37
