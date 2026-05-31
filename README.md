@@ -17,6 +17,17 @@
 >
 > Cuz, **`data is stored unencrypted`.. we're planning to add encryption soon.**
 
+## Archive Release
+
+There is archive release that you checkout in this [GitHub repository](https://github.com/PasscodesApp/Android-Archive/releases/latest),
+to know how passcodes app look like at end of kotlin-android codebase for passcodes.
+
+```yaml
+Package Name: "com.jeeldobariya.passcodes.archive"
+Version Name: "v2.2.0-Archive"
+Version Code: 7 
+```
+
 ---
 
 # Passcodes
@@ -87,17 +98,17 @@ Note: high versions can still run, but we are not guaranteed offically.
   - Could be Image. (JPG. PNG ....)
   - Could be Video.
   - Could any Binary File. (more like won't be a text file)
-- [ ] Other Secret Info Management.
-  - Could be note. (txt file)
-  - Could be any info that can encode as key & value.
-  ```json
-  {
-    "key": "SECRET API KEY",
-    "content": "qwerty-let-say",
-    "created-at": "...",
-    "updated-at": "..."
-  }
-  ```
+  - [ ] Other Secret Info Management.
+    - Could be note. (txt file)
+    - Could be any info that can encode as key & value.
+    ```json
+    {
+      "key": "SECRET API KEY",
+      "content": "qwerty-let-say",
+      "created-at": "...",
+      "updated-at": "..."
+    }
+    ```
 - [ ] NON-Secret Info Store.
 - [ ] Encryption and Decryption.
 - [ ] Backup Manager.
