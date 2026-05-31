@@ -1,11 +1,22 @@
-# Passcodes
+# Android Archive
 
-> [!WARNING]
-> It is just a open source project. An is current under active development.
-> Please, consider using it for fun, and not for real password management. (until, we officially
-> release a stable release)
+> [!IMPORTANT]
+> This [GitHub repository](https://github.com/PasscodesApp/Android-Archive) is archived as from May 31, 2026. It contains android-kotlin codebase for passcodes app.
+> This will remain as documentaion for passcodes old codebase—before react-native expo remake. This documenents passcodes journey from **AUG 1, 2024** to **MAY 31, 2026**.
+>
+> Thanks to all contributors especially,
+>
+>  - [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
+>  - [Hex Code (@hexCode63)](https://github.com/hexCode63)
+>
+> And, It is just a open source project. An is current under active development.
+> Please, consider using it for fun, and not for real password management. (until, we officially release a stable release).
 >
 > Cuz, **`data is stored unencrypted`.. we're planning to add encryption soon.**
+
+---
+
+# Passcodes
 
 > [!NOTE]
 > Currently, we are android-only, we will soon provide support for desktop (windows-only) using kotlin-multiplatform. but development will remain to android-first.
@@ -17,9 +28,7 @@
   <img width="512" height="250" alt="passcodes play store banner" src="https://github.com/user-attachments/assets/88e63483-9930-4ce0-a01e-4564e18b3c71" />
 
 ![Static Badge](https://img.shields.io/badge/Release-Prototype-blue)
-[![Android CI/CD](https://github.com/PasscodesApp/Passcodes/actions/workflows/build-apks.yml/badge.svg)](https://github.com/PasscodesApp/Passcodes/actions/workflows/build-apks.yml)
-[![CodeQL](https://github.com/PasscodesApp/Passcodes/actions/workflows/codeql.yml/badge.svg)](https://github.com/PasscodesApp/Passcodes/actions/workflows/codeql.yml)
-![Visitor Counter (@hehuapei/visitor-badge)](https://visitor-badge.laobi.icu/badge?page_id=JeelDobariya38.Passcodes&format=true)
+![Visitor Counter (@hehuapei/visitor-badge)](https://visitor-badge.laobi.icu/badge?page_id=JeelDobariya38.Android-Archive&format=true)
 
 </div>
 
@@ -66,7 +75,7 @@ Note: high versions can still run, but we are not guaranteed offically.
 
 ## Features
 
-- [ ] Intuitive UI.
+- [x] Intuitive UI.
 - [ ] Update Checkers & Manager.
 - [x] Password Management. (Current Priority)
 - [x] Autofill. (as preview feature)
@@ -129,14 +138,14 @@ file [building.md](https://passcodesapp.github.io/Passcodes-Docs/dev-docs/buildi
 
 You can checkout support docs, provided
 in [@github:PasscodesApp/Passcodes-Docs](https://passcodesapp.github.io/Passcodes-Docs) Or You can even
-seek help on our [telegram community](https://t.me/passcodescommunity)
+seek help on our [telegram community](https://t.me/passcodescommunity) & [discord community](https://discord.gg/kSSkYq7KAQ)
 
 ## Changelog & Release Notes
 
-- Professional
-  ChangeLog: [here](https://passcodesapp.github.io/Passcodes-Docs/user-docs/changelog/)
-- Casual Release
-  Notes: [here](https://passcodesapp.github.io/Passcodes-Docs/user-docs/release-notes/)
+- [Professional
+  ChangeLog](https://passcodesapp.github.io/Passcodes-Docs/user-docs/changelog/)
+- [Casual Release
+  Notes](https://passcodesapp.github.io/Passcodes-Docs/user-docs/release-notes/)
 
 ## Contribution Are Appreciated!!!
 
