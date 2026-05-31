@@ -1,13 +1,16 @@
 # Android Archive
 
 > [!IMPORTANT]
-> This [GitHub repository](https://github.com/PasscodesApp/Android-Archive) is archived as from May 31, 2026. It contains android-kotlin codebase for passcodes app.
+> This [GitHub repository](https://github.com/PasscodesApp/Android-Archive) is archived, as from May 31, 2026. It contains android-kotlin codebase for passcodes app.
 > This will remain as documentaion for passcodes old codebase—before react-native expo remake. This documenents passcodes journey from **AUG 1, 2024** to **MAY 31, 2026**.
 >
-> Thanks to all contributors especially,
+> Thanks to all contributors,
 >
->  - [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
->  - [Hex Code (@hexCode63)](https://github.com/hexCode63)
+>  - Owner: [Jeel Dobariya (@JeelDobariya38)](https://github.com/JeelDobariya38)
+>  - Code Reveiwer: [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
+>  - Autofill Functionality Contribution: [Hex Code (@hexCode63)](https://github.com/hexCode63)
+>
+> Developement of passcodes project is continued in official [repository](https://github.com/PasscodesApp/Passcodes). This just forked archive of that repository to frezze android-kotlin codebase in time, for documentaion purposes.
 >
 > And, It is just a open source project. An is current under active development.
 > Please, consider using it for fun, and not for real password management. (until, we officially release a stable release).
