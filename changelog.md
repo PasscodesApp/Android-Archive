@@ -10,14 +10,12 @@
 
 ---
 
-## [Unreleased]
+##  v2.1.2 - @5406095 (MAY 21, 2026) [UNOFFICIAL RELEASE]
 
-- Update dependency to latest. by @dependabot.
-- Add a End Of Support Warning. by @JeelDobariya38.
-- Improve View Password Screen. by @JeelDobariya38.
-- Improve Update Checking Functionality. by @JeelDobariya38.
-- Added a Link Field to Passwords. by @JeelDobariya38.
-- Fixed Back Navigation Gesture Problems With Preview Layout. by @JeelDobariya38.
+- **Warning**: Not a official release. Zero support. Telegram artifacts [download](https://t.me/passcodescommunity/236)
+- **Reverted Material 3 Expressive UI**: remove latest Material 3 Expressive UI changes from previous release (v2.1.1).
+
+[Full Changelog @ (0c249cd...5406095)](https://github.com/PasscodesApp/Android-Archive/compare/0c249cd...5406095)
 
 ---
 

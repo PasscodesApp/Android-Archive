@@ -21,9 +21,9 @@ fun getCurrentTimeLabel(): String {
 
 // Core Versioning
 val appVersionCode = 7
-val appVersionName = "v2.1.2-Beta"
-val appLabel = "v2.1.2 - Beta"
-val appDevLabel = "v2.1.2 - ${getCurrentTimeLabel()}"
+val appVersionName = "v2.2.0"
+val appLabel = "v2.2.0"
+val appDevLabel = "v2.2.0 - ${getCurrentTimeLabel()}"
 
 // SDK Versions
 val appCompileSdk = 37
@@ -66,6 +66,8 @@ android {
 
     defaultConfig {
         applicationId = appNamespace
+        applicationIdSuffix = ".archive"
+        versionNameSuffix = "-Archive"
         minSdk = appMinSdk
         targetSdk = appTargetSdk
         versionCode = appVersionCode
@@ -83,10 +85,10 @@ android {
                 val keystoreProperties = Properties()
                 keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 
-                keyAlias = keystoreProperties.getProperty("keyAlias")
-                keyPassword = keystoreProperties.getProperty("keyPassword")
-                storeFile = file(keystoreProperties.getProperty("storeFile"))
-                storePassword = keystoreProperties.getProperty("storePassword")
+                keyAlias = keystoreProperties.getProperty("stagingKeyAlias")
+                keyPassword = keystoreProperties.getProperty("stagingKeyPassword")
+                storeFile = file(keystoreProperties.getProperty("stagingStoreFile"))
+                storePassword = keystoreProperties.getProperty("stagingStorePassword")
             } else {
                 logger.warn("WARNING: keystore.properties not found for release signing config.")
                 // throw GradleException("keystore.properties not found!")
@@ -94,7 +96,7 @@ android {
         }
 
         create("staging") {
-            val keystorePropertiesFile = rootProject.file("staging-keystore.properties")
+            val keystorePropertiesFile = rootProject.file("keystore.properties")
             if (keystorePropertiesFile.exists()) {
                 val keystoreProperties = Properties()
                 keystoreProperties.load(FileInputStream(keystorePropertiesFile))
@@ -142,7 +144,7 @@ android {
             )
 
             resValue("string", "app_name", appBaseName)
-            resValue("string", "app_version", appLabel)
+            resValue("string", "app_version", "$appLabel @ bd092a4")
 
             manifestPlaceholders["appIcon"] = mainIcon
             manifestPlaceholders["appRoundIcon"] = mainRoundIcon

@@ -1,11 +1,37 @@
-# Passcodes
+# Android Archive
 
-> [!WARNING]
-> It is just a open source project. An is current under active development.
-> Please, consider using it for fun, and not for real password management. (until, we officially
-> release a stable release)
+> [!IMPORTANT]
+> This [GitHub repository](https://github.com/PasscodesApp/Android-Archive) is archived, as from May 31, 2026. It contains android-kotlin codebase for passcodes app.
+> This will remain as documentaion for passcodes old codebase—before react-native expo remake. This documenents passcodes journey from **AUG 1, 2024** to **MAY 31, 2026**.
+>
+> Thanks to all contributors,
+>
+>  - Owner: [Jeel Dobariya (@JeelDobariya38)](https://github.com/JeelDobariya38)
+>  - Code Reviewer: [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
+>  - Autofill Functionality Contribution: [Hex Code (@hexCode63)](https://github.com/hexCode63)
+>
+> Development of passcodes project is continued in official [repository](https://github.com/PasscodesApp/Passcodes). This just forked archive of that repository to freeze android-kotlin codebase in time, for documentation purposes.
+>
+> And, It is just an open source project. An is current under active development.
+> Please, consider using it for fun, and not for real password management. (until, we officially release a stable release).
 >
 > Cuz, **`data is stored unencrypted`.. we're planning to add encryption soon.**
+
+## Archive Release
+
+There is archive release that you checkout in this [GitHub repository](https://github.com/PasscodesApp/Android-Archive/releases/latest),
+to know how passcodes app look like at end of kotlin-android codebase for passcodes.
+
+```yaml
+Package Name: "com.jeeldobariya.passcodes.archive"
+Version Name: "v2.2.0-Archive"
+Version Code: 7
+Build Commit: "bd092a4"
+```
+
+---
+
+# Passcodes
 
 > [!NOTE]
 > Currently, we are android-only, we will soon provide support for desktop (windows-only) using kotlin-multiplatform. but development will remain to android-first.
@@ -17,13 +43,11 @@
   <img width="512" height="250" alt="passcodes play store banner" src="https://github.com/user-attachments/assets/88e63483-9930-4ce0-a01e-4564e18b3c71" />
 
 ![Static Badge](https://img.shields.io/badge/Release-Prototype-blue)
-[![Android CI/CD](https://github.com/PasscodesApp/Passcodes/actions/workflows/build-apks.yml/badge.svg)](https://github.com/PasscodesApp/Passcodes/actions/workflows/build-apks.yml)
-[![CodeQL](https://github.com/PasscodesApp/Passcodes/actions/workflows/codeql.yml/badge.svg)](https://github.com/PasscodesApp/Passcodes/actions/workflows/codeql.yml)
-![Visitor Counter (@hehuapei/visitor-badge)](https://visitor-badge.laobi.icu/badge?page_id=JeelDobariya38.Passcodes&format=true)
+![Visitor Counter (@hehuapei/visitor-badge)](https://visitor-badge.laobi.icu/badge?page_id=JeelDobariya38.Android-Archive&format=true)
 
 </div>
 
-A android app that take down the headache of remembering passwords. It is open source solutions that
+An android app that take down the headache of remembering passwords. It is open source solutions that
 help you in keeping your passwords safe and secure, in your own local storage without ever needing
 to push them to cloud.
 
@@ -31,7 +55,7 @@ to push them to cloud.
 
 > What we think of passcodes?
 > Password management is one such thing that is as simple as remember a password yet, it very
-> important topic in term of security. So, we as developer of passcodes think to streamline and
+> important topic in terms of security. So, we as developer of passcodes thinks to streamline and
 > securing the process as much as
 > possible. [Read more](https://passcodesapp.github.io/Passcodes-Docs/other-docs/project-overview/)
 
@@ -66,27 +90,27 @@ Note: high versions can still run, but we are not guaranteed offically.
 
 ## Features
 
-- [ ] Intuitive UI.
+- [x] Intuitive UI.
 - [ ] Update Checkers & Manager.
 - [x] Password Management. (Current Priority)
 - [x] Autofill. (as preview feature)
-- [ ] Secure File. (Least Priority, Because it include permission. Which, I am as developer not
+- [ ] Secure File. (Least Priority, Because it includes permission. Which, I am as developer not
       familiar with 😂)
   - Could be Image. (JPG. PNG ....)
   - Could be Video.
   - Could any Binary File. (more like won't be a text file)
-- [ ] Other Secret Info Management.
-  - Could be note. (txt file)
-  - Could be any info that can encode as key & value.
-  ```json
-  {
-    "key": "SECRET API KEY",
-    "content": "qwerty-let-say",
-    "created-at": "...",
-    "updated-at": "..."
-  }
-  ```
-- [ ] NON Secret Info Store.
+  - [ ] Other Secret Info Management.
+    - Could be note. (txt file)
+    - Could be any info that can encode as key & value.
+    ```json
+    {
+      "key": "SECRET API KEY",
+      "content": "qwerty-let-say",
+      "created-at": "...",
+      "updated-at": "..."
+    }
+    ```
+- [ ] NON-Secret Info Store.
 - [ ] Encryption and Decryption.
 - [ ] Backup Manager.
 - [ ] Import/Export Passwords.
@@ -99,7 +123,7 @@ Note: high versions can still run, but we are not guaranteed offically.
 ## Installation Steps
 
 1. Go to
-   our [github repository release page](https://github.com/PasscodesApp/Passcodes/releases/latest).
+   our [GitHub repository release page](https://github.com/PasscodesApp/Passcodes/releases/latest).
 
 2. Download the apk for your phone. If Don't know the architecture of phone then download apk file
    that has universal in its name.
@@ -129,30 +153,30 @@ file [building.md](https://passcodesapp.github.io/Passcodes-Docs/dev-docs/buildi
 
 You can checkout support docs, provided
 in [@github:PasscodesApp/Passcodes-Docs](https://passcodesapp.github.io/Passcodes-Docs) Or You can even
-seek help on our [telegram community](https://t.me/passcodescommunity)
+seek help on our [telegram community](https://t.me/passcodescommunity) & [discord community](https://discord.gg/kSSkYq7KAQ)
 
 ## Changelog & Release Notes
 
-- Professional
-  ChangeLog: [here](https://passcodesapp.github.io/Passcodes-Docs/user-docs/changelog/)
-- Casual Release
-  Notes: [here](https://passcodesapp.github.io/Passcodes-Docs/user-docs/release-notes/)
+- [Professional
+  ChangeLog](https://passcodesapp.github.io/Passcodes-Docs/user-docs/changelog/)
+- [Casual Release
+  Notes](https://passcodesapp.github.io/Passcodes-Docs/user-docs/release-notes/)
 
 ## Contribution Are Appreciated!!!
 
 > [!IMPORTANT]
 > Currently the project (more or less also me) is not ready for (code) contributions.
-> This project is currently limited by my expertise & I am beginner. Meaning I don;t want others
+> This project is currently limited by my expertise & I am beginner. Meaning I don’t want others
 > code in my codebase, that I don't understand, I am learning android and will surely learn basic
-> off by start of 2026.. then i will allow the contribution to this repo... But as of now i don't
+> off by start of 2026. then I will allow the contribution to this repo... But as of now I don't
 > admire code contribution. As I am beginner in android and might have difficultly in understanding
 > code that not written by me...
 >
-> There are still other ways to contribute to project.. like by testing app, by contributing to
-> documentation or more or less just by spreading the word around.. about the app. but, code
+> There are still other ways to contribute to project. like by testing app, by contributing to
+> documentation or more or less just by spreading the word around. about the app. but, code
 > contribution is limited from my side.... & I hope you can understand...
 >
-> For more, information on what kind of contribution we approve or allow, please open a issue in our
+> For more, information on what kind of contribution we approve or allow, please open an issue in our
 > repo. that way you avoid wasting your time...
 >
 > [Read More](https://passcodesapp.github.io/Passcodes-Docs/other-docs/open-contributing-timeline/)
