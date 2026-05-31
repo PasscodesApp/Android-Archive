@@ -25,7 +25,8 @@ to know how passcodes app look like at end of kotlin-android codebase for passco
 ```yaml
 Package Name: "com.jeeldobariya.passcodes.archive"
 Version Name: "v2.2.0-Archive"
-Version Code: 7 
+Version Code: 7
+Build Commit: "bd092a4"
 ```
 
 ---

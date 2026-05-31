@@ -144,7 +144,7 @@ android {
             )
 
             resValue("string", "app_name", appBaseName)
-            resValue("string", "app_version", appLabel)
+            resValue("string", "app_version", "$appLabel @ bd092a4")
 
             manifestPlaceholders["appIcon"] = mainIcon
             manifestPlaceholders["appRoundIcon"] = mainRoundIcon
