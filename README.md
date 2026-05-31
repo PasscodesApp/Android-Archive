@@ -7,12 +7,12 @@
 > Thanks to all contributors,
 >
 >  - Owner: [Jeel Dobariya (@JeelDobariya38)](https://github.com/JeelDobariya38)
->  - Code Reveiwer: [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
+>  - Code Reviewer: [Achmad Daniel Syahputra (@kudanilll)](https://github.com/kudanilll)
 >  - Autofill Functionality Contribution: [Hex Code (@hexCode63)](https://github.com/hexCode63)
 >
-> Developement of passcodes project is continued in official [repository](https://github.com/PasscodesApp/Passcodes). This just forked archive of that repository to frezze android-kotlin codebase in time, for documentaion purposes.
+> Development of passcodes project is continued in official [repository](https://github.com/PasscodesApp/Passcodes). This just forked archive of that repository to freeze android-kotlin codebase in time, for documentation purposes.
 >
-> And, It is just a open source project. An is current under active development.
+> And, It is just an open source project. An is current under active development.
 > Please, consider using it for fun, and not for real password management. (until, we officially release a stable release).
 >
 > Cuz, **`data is stored unencrypted`.. we're planning to add encryption soon.**
@@ -35,7 +35,7 @@
 
 </div>
 
-A android app that take down the headache of remembering passwords. It is open source solutions that
+An android app that take down the headache of remembering passwords. It is open source solutions that
 help you in keeping your passwords safe and secure, in your own local storage without ever needing
 to push them to cloud.
 
@@ -43,7 +43,7 @@ to push them to cloud.
 
 > What we think of passcodes?
 > Password management is one such thing that is as simple as remember a password yet, it very
-> important topic in term of security. So, we as developer of passcodes think to streamline and
+> important topic in terms of security. So, we as developer of passcodes thinks to streamline and
 > securing the process as much as
 > possible. [Read more](https://passcodesapp.github.io/Passcodes-Docs/other-docs/project-overview/)
 
@@ -82,7 +82,7 @@ Note: high versions can still run, but we are not guaranteed offically.
 - [ ] Update Checkers & Manager.
 - [x] Password Management. (Current Priority)
 - [x] Autofill. (as preview feature)
-- [ ] Secure File. (Least Priority, Because it include permission. Which, I am as developer not
+- [ ] Secure File. (Least Priority, Because it includes permission. Which, I am as developer not
       familiar with 😂)
   - Could be Image. (JPG. PNG ....)
   - Could be Video.
@@ -98,7 +98,7 @@ Note: high versions can still run, but we are not guaranteed offically.
     "updated-at": "..."
   }
   ```
-- [ ] NON Secret Info Store.
+- [ ] NON-Secret Info Store.
 - [ ] Encryption and Decryption.
 - [ ] Backup Manager.
 - [ ] Import/Export Passwords.
@@ -111,7 +111,7 @@ Note: high versions can still run, but we are not guaranteed offically.
 ## Installation Steps
 
 1. Go to
-   our [github repository release page](https://github.com/PasscodesApp/Passcodes/releases/latest).
+   our [GitHub repository release page](https://github.com/PasscodesApp/Passcodes/releases/latest).
 
 2. Download the apk for your phone. If Don't know the architecture of phone then download apk file
    that has universal in its name.
@@ -154,17 +154,17 @@ seek help on our [telegram community](https://t.me/passcodescommunity) & [discor
 
 > [!IMPORTANT]
 > Currently the project (more or less also me) is not ready for (code) contributions.
-> This project is currently limited by my expertise & I am beginner. Meaning I don;t want others
+> This project is currently limited by my expertise & I am beginner. Meaning I don’t want others
 > code in my codebase, that I don't understand, I am learning android and will surely learn basic
-> off by start of 2026.. then i will allow the contribution to this repo... But as of now i don't
+> off by start of 2026. then I will allow the contribution to this repo... But as of now I don't
 > admire code contribution. As I am beginner in android and might have difficultly in understanding
 > code that not written by me...
 >
-> There are still other ways to contribute to project.. like by testing app, by contributing to
-> documentation or more or less just by spreading the word around.. about the app. but, code
+> There are still other ways to contribute to project. like by testing app, by contributing to
+> documentation or more or less just by spreading the word around. about the app. but, code
 > contribution is limited from my side.... & I hope you can understand...
 >
-> For more, information on what kind of contribution we approve or allow, please open a issue in our
+> For more, information on what kind of contribution we approve or allow, please open an issue in our
 > repo. that way you avoid wasting your time...
 >
 > [Read More](https://passcodesapp.github.io/Passcodes-Docs/other-docs/open-contributing-timeline/)
